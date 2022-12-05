@@ -8,7 +8,14 @@ def aggiungi_nome(lista, nome):
     return
 
 def modifica_nome(lista, vecchio, nuovo):
-    return
+    indice = -1
+    i = 0
+    while i < len(lista):
+        if lista[i] == vecchio:
+            indice = i
+            break
+    lista[indice] = nuovo
+    return lista
 
 def rimuovi_nome(lista, nome):
     nuova_lista = []
