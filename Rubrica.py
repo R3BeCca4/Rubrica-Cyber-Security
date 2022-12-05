@@ -11,7 +11,11 @@ def modifica_nome(lista, vecchio, nuovo):
     return
 
 def rimuovi_nome(lista, nome):
-    return
+    nuova_lista = []
+    for n in lista:
+        if n != nome:
+            nuova_lista.append(n)
+    return nuova_lista
 
 def stampa_lista(lista):
     return
