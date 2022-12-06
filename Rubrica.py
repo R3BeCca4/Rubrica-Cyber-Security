@@ -8,8 +8,17 @@ def aggiungi_nome(lista, nome):
     return
 
 def modifica_nome(lista, vecchio, nuovo):
-    # questa è una modifica
-    return
+    # 1 ottenere l'indice del vecchio nome
+    # 1.1 utilizzare una variabile indice nel qualce salveremo l'indice del nome vecchio
+    indice = 0
+    # 1.2 scorrere la lista fina a trovare il nome corrispondere
+    for nome in lista:
+        if nome == vecchio:
+            break
+        indice + 1
+    # 2 utilizzare l'indice del vecchio nome per modificare il valore a quell'indice
+    lista[indice] = nuovo
+    return lista
 
 def rimuovi_nome(lista, nome):
     return
