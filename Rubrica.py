@@ -8,21 +8,10 @@ def aggiungi_nome(lista, nome):
     return
 
 def modifica_nome(lista, vecchio, nuovo):
-    indice = -1
-    i = 0
-    while i < len(lista):
-        if lista[i] == vecchio:
-            indice = i
-            break
-    lista[indice] = nuovo
-    return lista
+    return
 
 def rimuovi_nome(lista, nome):
-    nuova_lista = []
-    for n in lista:
-        if n != nome:
-            nuova_lista.append(n)
-    return nuova_lista
+    return
 
 def stampa_lista(lista):
     return
