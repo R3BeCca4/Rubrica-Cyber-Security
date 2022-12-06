@@ -8,6 +8,7 @@ def aggiungi_nome(lista, nome):
     return
 
 def modifica_nome(lista, vecchio, nuovo):
+    # questa è una modifica
     return
 
 def rimuovi_nome(lista, nome):
