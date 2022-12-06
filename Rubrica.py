@@ -5,7 +5,8 @@
 
 
 def aggiungi_nome(lista, nome):
-    return
+   lista.append(nome)
+   return lista
 
 def modifica_nome(lista, vecchio, nuovo):
     # 1 ottenere l'indice del vecchio nome
